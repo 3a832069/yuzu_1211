@@ -14,7 +14,11 @@
 
         .m1_div{
             float:left;
-            margin:150px;
+
+            margin-left:10%;
+            margin-right:10%;
+            margin-top:5%;
+            margin-bottom:2%;
 
         }
 
