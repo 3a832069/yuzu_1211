@@ -17,7 +17,7 @@
 
             margin-left:10%;
             margin-right:10%;
-            margin-top:5%;
+            margin-top:2%;
             margin-bottom:2%;
 
         }

@@ -27,6 +27,7 @@
 </header>
 <main>
     @foreach ($ticket as $ticket1)
+        @if($ticket1->status==1)
         <div class="m1_div">
             <div>
                 <h3> 票券名稱: <a>{{$ticket1->name}}</a></h3><br>
@@ -41,7 +42,7 @@
 
         </div>
         <hr>
-        <!-- /.row -->
+       @endif
     @endforeach
 
 

@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/tickets', [\App\Http\Controllers\TicketController::class, 'index'])->name('tickets.index');
 
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
