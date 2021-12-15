@@ -31,6 +31,9 @@
             max-width: 100%;
             max-height: 100%;
         }
+
+
+
         main{
 
             font-family:Comic Sans MS, Comic Sans, cursive;
@@ -43,6 +46,7 @@
 
 
 <nav class="navbar navbar-fixed-bottom text-center" style="background-color: coral">
+
     <p class="float-end"><a href="#" style="font-size:25px;color: #6b7280" >Back to top</a></p>
 </nav>
 </body>

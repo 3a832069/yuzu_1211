@@ -1,24 +1,29 @@
 @extends('layouts.master')
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: coral">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top"  style="background-color: coral">
         <div class="container-fluid" >
             <a class="container">
                 <a style="font-size:100px;color: #6b7280">XXX</a>
+
             </a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <div class="collapse navbar-collapse navbar-right " id="navbarCollapse">
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="font-size:30px;color: #6b7280">Active</a>
+                        <a class="nav-link active" aria-current="page" href="#" style="font-size:30px;color: #6b7280">主頁</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="font-size:30px;color: #6b7280">Much longer nav link</a>
+                        <a class="nav-link" href="#" style="font-size:30px;color: #6b7280">商品</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="font-size:30px;color: #6b7280">Link</a>
+                        <a class="nav-link" href="#" style="font-size:30px;color: #6b7280 "href="{{ route('register') }}">register</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" style="font-size:30px;color: #6b7280">Disabled</a>
+
+                    <li class="nav-item" >
+                        <a class="nav-link"  style="font-size:30px;color: #6b7280" href="{{ route('login') }}">login</a>
                     </li>
+
                 </ul>
             </div>
 
